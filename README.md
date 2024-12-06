@@ -13,3 +13,4 @@ Este proyecto realiza scraping de información de vehículos Hyundai Veloster en
    ```bash
    pip install -r requirements.txt
    ```
+   python src/main.py

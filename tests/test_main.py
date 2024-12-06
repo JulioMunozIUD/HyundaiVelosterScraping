@@ -1,12 +1,11 @@
 import pytest
-from src.main import scrape_data
+from src.scraping import scrape_data
 import sys
 import os
 
 # Agregar el directorio raíz del proyecto al path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
 
-from main import scrape_data  # Importación del módulo principal
 
 def test_scrape_data():
     df = scrape_data()
