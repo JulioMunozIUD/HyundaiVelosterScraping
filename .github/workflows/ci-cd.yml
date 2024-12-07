@@ -20,7 +20,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.9"
+          python-version: "3.10"
 
       - name: Install dependencies
         run: |
@@ -43,7 +43,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Deploy application
-        run: |
-          echo "Deploying application..."
-          # Aquí agregarías comandos específicos para tu despliegue.
+      - name: Deploy to Azure Web App
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: "tu-nombre-app"
+          slot-name: "production"
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
