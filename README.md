@@ -13,4 +13,6 @@ Este proyecto realiza scraping de información de vehículos Hyundai Veloster en
    ```bash
    pip install -r requirements.txt
    ```
-   python src/main.py
+
+- dirección despliegue azure  
+  veloster-bddcgehmgzc8cdge.brazilsouth-01.azurewebsites.net
