@@ -15,4 +15,4 @@ Este proyecto realiza scraping de información de vehículos Hyundai Veloster en
    ```
 
 - dirección despliegue azure  
-  veloster-bddcgehmgzc8cdge.brazilsouth-01.azurewebsites.net
+  https://velosterscr-e5gzfgfyh7awajhv.brazilsouth-01.azurewebsites.net/
